@@ -235,3 +235,17 @@ bindsym $mod+n exec nemo
 
 #nitrogen
 exec_always --no-startup-id nitrogen --restore;
+
+#picom
+exec_always --no-startup-id picom
+
+##### i3-gaps ##############
+for_window [class=".*"] border pixel 2 #*
+gaps inner 10
+gaps outer 1
+#gaps horizontal 2
+
+################# i3-radius #######################
+smart_borders on
+smart_borders no_gaps
+border_radius 4
